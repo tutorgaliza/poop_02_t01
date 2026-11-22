@@ -1,0 +1,35 @@
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos de compilación
+build/
+dist/
+*.egg-info/
+
+# Configuración de editores
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Caché de herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
